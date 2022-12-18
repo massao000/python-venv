@@ -37,6 +37,11 @@ $ .venv\Scripts\activate
 (.venv)$ deactivate
 ```
 
+## pipのアップデート
+```
+(.venv)$ [環境] -m pip install --upgrade pip
+```
+
 # パッケージ保存インストール
 
 ## パッケージ保存
