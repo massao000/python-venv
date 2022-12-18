@@ -5,7 +5,7 @@
 作成したいディレクトリに移動
 
 ```
-$ py -m vnev .venv
+$ py -m venv .venv
 ```
 
 `.venv`はフォルダ名になるので好きにつけていい
@@ -13,7 +13,7 @@ $ py -m vnev .venv
 ### バージョン指定方法
 
 ```
-$ py -3.9 -m vnev .venv
+$ py -3.9 -m venv .venv
 ```
 
 環境にインストールされているPythonのバージョンであれば好きに指定できる
