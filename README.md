@@ -55,4 +55,9 @@ $ .venv\Scripts\activate
 (.venv)$ pip install -r requirements.txt
 ```
 
+## パッケージアインストール
+```
+(.venv)$ pip uninstall -r -r requirements.txt
+```
+
 [参考](https://www.python.jp/install/windows/venv.html)
