@@ -41,6 +41,11 @@ $ .venv\Scripts\activate
 ```
 (.venv)$ [環境] -m pip install --upgrade pip
 ```
+もしくは
+
+```
+(.venv)$ pip install -U pip setuptools
+```
 
 # パッケージ保存インストール
 
