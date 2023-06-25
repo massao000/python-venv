@@ -20,6 +20,12 @@ call .venv\Scripts\activate
 REM 仮想環境のpipをアップデート
 python -m pip install --upgrade pip
 
+REM requirements.txt ファイルが存在する場合はパッケージをインストール
+if exist "requirements.txt" (
+    echo requirements.txt ファイルを使用してパッケージをインストールしています...
+    python -m pip install -r requirements.txt
+)
+
 REM メッセージの表示
 echo 仮想環境の作成とpipのアップデートが完了しました。
 
