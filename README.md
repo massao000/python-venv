@@ -66,3 +66,16 @@ $ .venv\Scripts\activate
 ```
 
 [参考](https://www.python.jp/install/windows/venv.html)
+
+# バッチファイルから起動
+
+```bat
+[仮想環境名]\Scripts\python.exe [起動アプリ名].py --pycmd [仮想環境名]\Scripts\python.exe
+pause
+```
+
+例
+```bat
+.venv\Scripts\python.exe app.py --pycmd .venv\Scripts\python.exe
+pause
+```
