@@ -57,6 +57,28 @@ $ .venv\Scripts\activate
 (.venv)$ pip install -U pip setuptools
 ```
 
+## ライブラリのアップデート
+
+### 確認
+```
+(.venv)$ pip list --outdated
+```
+もしくは
+
+```
+(.venv)$ pip list -o
+```
+
+### アップデート
+```
+(.venv)$ pip --upgrade <パッケージ名>
+```
+もしくは
+
+```
+(.venv)$ pip -U <パッケージ名>
+```
+
 # パッケージ保存インストール
 
 ## パッケージ保存
@@ -71,8 +93,16 @@ $ .venv\Scripts\activate
 ```
 
 ## パッケージアインストール
+
+### 一括
 ```
 (.venv)$ pip uninstall -y -r requirements.txt
+```
+
+### 単一
+
+```
+(.venv)$ pip uninstall <パッケージ名>
 ```
 
 [参考](https://www.python.jp/install/windows/venv.html)
