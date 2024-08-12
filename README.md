@@ -71,12 +71,12 @@ $ .venv\Scripts\activate
 
 ### アップデート
 ```
-(.venv)$ pip --upgrade <パッケージ名>
+(.venv)$ pip install --upgrade <パッケージ名>
 ```
 もしくは
 
 ```
-(.venv)$ pip -U <パッケージ名>
+(.venv)$ pip install -U <パッケージ名>
 ```
 
 # パッケージ保存インストール
